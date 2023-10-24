@@ -1,0 +1,44 @@
+.seat-main-container{
+    background-color: yellowgreen;
+    border: 2px solid red;
+}
+
+.li-container{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat-container{
+    background-color:rgb(7, 72, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 29px;
+    margin: 4px;
+    border: 2px solid black;
+    border: none;
+}
+
+.seat-num{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.row-num-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 26px;
+    margin: 3px;
+}
+
+.row-num{
+    color: #000000;
+    font-size: 18px;
+}
