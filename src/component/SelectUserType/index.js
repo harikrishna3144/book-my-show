@@ -39,7 +39,7 @@ const onChangeTypeUser = (event) => {
         {/* <p>{typeText}</p> */}
         </div>
         <div className="input-container">
-            <h3>Ticket Type</h3>
+            <h3>Qty</h3>
         <select value={typeText} onChange={onChangeTypeUser}  className="select-user-text" >
             {typeOptions.map((eachOption) => (
                 <option selected  key={eachOption.optionId} >
